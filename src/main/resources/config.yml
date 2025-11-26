@@ -1,0 +1,109 @@
+# CalanityArtifact Configuration
+# Artifact Sets with 5 pieces each
+
+artifact_sets:
+  CRIMSON:
+    display_name: "&c&lCrimson Set"
+    description: "A fiery set of ancient artifacts"
+    circlet:
+      display_name: "&c&lCrimson Circlet"
+      material: "GOLDEN_HELMET"
+      price: 100
+      stats:
+        - "&f+5 ATK"
+        - "&f+3 DEF"
+      lore:
+        - "&8━━━━━━━━━━━━━━━━━━━━━━"
+        - "&7Rarity: &6Legendary"
+    flower:
+      display_name: "&c&lCrimson Flower"
+      material: "RED_TULIP"
+      price: 100
+      stats:
+        - "&f+4 ATK"
+        - "&f+2 SPD"
+      lore:
+        - "&8━━━━━━━━━━━━━━━━━━━━━━"
+        - "&7Rarity: &6Legendary"
+    plume:
+      display_name: "&c&lCrimson Plume"
+      material: "FEATHER"
+      price: 100
+      stats:
+        - "&f+3 ATK"
+        - "&f+5 SPD"
+      lore:
+        - "&8━━━━━━━━━━━━━━━━━━━━━━"
+        - "&7Rarity: &6Legendary"
+    key:
+      display_name: "&c&lCrimson Key"
+      material: "GOLD_INGOT"
+      price: 100
+      stats:
+        - "&f+6 ATK"
+      lore:
+        - "&8━━━━━━━━━━━━━━━━━━━━━━"
+        - "&7Rarity: &6Legendary"
+    luminant:
+      display_name: "&c&lCrimson Luminant"
+      material: "REDSTONE"
+      price: 100
+      stats:
+        - "&f+2 ATK"
+        - "&f+4 DEF"
+      lore:
+        - "&8━━━━━━━━━━━━━━━━━━━━━━"
+        - "&7Rarity: &6Legendary"
+
+  FROST:
+    display_name: "&b&lFrost Set"
+    description: "An icy set of frozen power"
+    circlet:
+      display_name: "&b&lFrost Circlet"
+      material: "DIAMOND_HELMET"
+      price: 120
+      stats:
+        - "&f+4 DEF"
+        - "&f+3 SPD"
+      lore:
+        - "&8━━━━━━━━━━━━━━━━━━━━━━"
+        - "&7Rarity: &6Legendary"
+    flower:
+      display_name: "&b&lFrost Flower"
+      material: "BLUE_ORCHID"
+      price: 120
+      stats:
+        - "&f+3 DEF"
+        - "&f+4 SPD"
+      lore:
+        - "&8━━━━━━━━━━━━━━━━━━━━━━"
+        - "&7Rarity: &6Legendary"
+    plume:
+      display_name: "&b&lFrost Plume"
+      material: "SNOWBALL"
+      price: 120
+      stats:
+        - "&f+5 SPD"
+        - "&f+2 DEF"
+      lore:
+        - "&8━━━━━━━━━━━━━━━━━━━━━━"
+        - "&7Rarity: &6Legendary"
+    key:
+      display_name: "&b&lFrost Key"
+      material: "DIAMOND"
+      price: 120
+      stats:
+        - "&f+5 DEF"
+      lore:
+        - "&8━━━━━━━━━━━━━━━━━━━━━━"
+        - "&7Rarity: &6Legendary"
+    luminant:
+      display_name: "&b&lFrost Luminant"
+      material: "ICE"
+      price: 120
+      stats:
+        - "&f+3 DEF"
+        - "&f+3 SPD"
+      lore:
+        - "&8━━━━━━━━━━━━━━━━━━━━━━"
+        - "&7Rarity: &6Legendary"

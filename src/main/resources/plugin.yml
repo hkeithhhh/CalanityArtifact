@@ -1,0 +1,19 @@
+name: CalanityArtifact
+version: 1.0.0
+description: Artifact system with GUI support
+main: com.calanity.artifact.CalanityArtifactPlugin
+api-version: "1.21"
+
+commands:
+  artifacts:
+    description: Open the artifacts GUI
+  profile:
+    description: Open your artifact profile
+  upgrade:
+    description: Open the upgrade interface
+  giveartifact:
+    description: Give an artifact to a player
+    permission: calanityartifact.give
+  artifactadmin:
+    description: Admin command for artifacts
+    permission: calanityartifact.admin

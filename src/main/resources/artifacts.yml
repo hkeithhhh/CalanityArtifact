@@ -1,0 +1,75 @@
+# Artifact Configuration
+# Define artifacts with their properties
+
+artifacts:
+  FIREFROST:
+    display_name: "&c&lFireFrost Artifact"
+    description:
+      - "&7A legendary artifact forged in fire"
+      - "&7Requires: Lava Bucket"
+    required_item: "LAVA_BUCKET"
+    required_item_custom_model: 0
+    tier_2_count: 2
+    tier_2_stats:
+      - "stat_fire_resistance: 1"
+      - "stat_strength: 0.5"
+    tier_5_count: 5
+    tier_5_stats:
+      - "stat_fire_resistance: 2"
+      - "stat_strength: 1"
+      - "stat_health: 2"
+    lore:
+      - "&8━━━━━━━━━━━━━━━━━━━━━━"
+      - "&7Type: &cFire Artifact"
+      - "&7Rarity: &6Legendary"
+      - "&8━━━━━━━━━━━━━━━━━━━━━━"
+
+  FROSTBOUND:
+    display_name: "&b&lFrostbound Artifact"
+    description:
+      - "&7An icy artifact of the frozen north"
+      - "&7Requires: Packed Ice"
+    required_item: "PACKED_ICE"
+    required_item_custom_model: 0
+    tier_2_count: 2
+    tier_2_stats:
+      - "stat_frost_resistance: 1"
+      - "stat_speed: 0.5"
+    tier_5_count: 5
+    tier_5_stats:
+      - "stat_frost_resistance: 2"
+      - "stat_speed: 1"
+      - "stat_jump: 1"
+    lore:
+      - "&8━━━━━━━━━━━━━━━━━━━━━━"
+      - "&7Type: &bFrost Artifact"
+      - "&7Rarity: &6Legendary"
+      - "&8━━━━━━━━━━━━━━━━━━━━━━"
+
+  EARTHEN:
+    display_name: "&2&lEarthen Artifact"
+    description:
+      - "&7A stone artifact of the earth"
+      - "&7Requires: Diamond Block"
+    required_item: "DIAMOND_BLOCK"
+    required_item_custom_model: 0
+    tier_2_count: 2
+    tier_2_stats:
+      - "stat_resistance: 1"
+    tier_5_count: 5
+    tier_5_stats:
+      - "stat_resistance: 2"
+      - "stat_mining_speed: 1.5"
+    lore:
+      - "&8━━━━━━━━━━━━━━━━━━━━━━"
+      - "&7Type: &2Earth Artifact"
+      - "&7Rarity: &6Legendary"
+      - "&8━━━━━━━━━━━━━━━━━━━━━━"
+
+# Max artifacts a player can hold
+max_artifacts: 5
+
+# GUI Settings
+gui:
+  title: "&c&lArtifact Inventory"
+  rows: 5
